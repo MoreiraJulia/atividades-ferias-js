@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 018</title>
+</head>
+<body>
+    <h1>Par ou Ímpar</h1>
+    <p>
+        Faça um programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado dde uma frase que diga se o número é:
+    </p>
+    <ul>
+        <li>par ou ímpar</li>
+        <li>positivo ou negativo</li>
+    </ul>
+    <form>
+        Número 1: <input id="numero1" type="number"><br>
+        Número 2: <input id="numero2" type="number"><br>
+        Operação:
+        <input type="radio" name="operacao" value="+" id="adicao">+
+        <input type="radio" name="operacao" value="-" id="subtracao">-
+        <input type="radio" name="operacao" value="*" id="multiplicacao">*
+        <input type="radio" name="operacao" value="/" id="divisao">/
+        <br>
+        <button type="radio" onclick="Calcular();">Calcular</button>
+
+        <div id="resposta"></div>
+    </form>
+
+    <script src="js/018.js"></script>
+</body>
+</html>

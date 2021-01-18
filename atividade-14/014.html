@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 014</title>
+</head>
+<body>
+    <h1>Reajuste Salarial</h1>
+    <p> 
+        As Organizações Tabajara resolveram dar um aumento saçárial aos seus colaboradores e lhe contrataram para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e o resjuste segundo o seguinte critério, baseado no salário atual:
+    </p>
+    <ul>
+        <li>salários até R$ 280,00(incluindo) : aumento de 20%</li>
+        <li>salários entre R$ 280,00 e R$ 700,00 : aumento de 15%</li>
+        <li>salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%</li>
+        <li>salários de R$ 1500 em diante : aumento de 5%</li>
+    </ul>
+    <p>
+        Apóes o aumento ser realizado, informe na tela:
+    </p>
+    <ul>
+        <li>o salário antes do reajuste;</li>
+        <li>o percentual de aumento aplicado;</li>
+        <li>o valor do aumento;</li>
+        <li>o novo salário, após o aumento.</li>
+    </ul>
+    <form>
+        Salário: <input id="salario" type="number"><br>
+        <button type="button" onclick="CalcularReajuste();">Calcular Reajuste</button>
+
+        <div id="resultado"></div>
+    </form>
+    
+    <script src="js/014.js"></script>
+</body>
+</html>
